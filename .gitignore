@@ -179,3 +179,13 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Large Data Folders
+datasets/
+temp_extracted datasets/
+
+# YOLO Training outputs
+runs/
+
+# Large Model Weights (Keep these if they are small, but usually best to ignore)
+*.pt
