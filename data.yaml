@@ -1,0 +1,30 @@
+path: "C:/Users/parth/Desktop/Docs/GRAD DOCS/Spring 25/MMAE 500 Data Driven Modelling/Project/AMR_Collision_Project/datasets"
+
+
+train: 
+  - cardboard_box/train/images
+  - pallet/train/images
+  - forklift/train/images
+  - safety_cone/train/images
+  - shelf/train/images
+
+val: 
+  - cardboard_box/valid/images
+  - pallet/valid/images
+  - forklift/valid/images
+  - safety_cone/valid/images
+  - shelf/valid/images
+
+test: 
+  - cardboard_box/test/images
+  - pallet/test/images
+  - forklift/test/images
+  - safety_cone/test/images
+  - shelf/test/images
+
+names:
+  0: cardboard_box
+  1: pallet
+  2: shelf
+  3: safety_cone
+  4: forklift
